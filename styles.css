@@ -18,9 +18,10 @@ body {
   align-items: center;
 }
 
-.rows {
+.vessel-v1 {
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
 }
 
 .home {
@@ -44,60 +45,17 @@ hr {
   border-radius: 50px;
 }
 
-header {
-  grid-area: head;
-  text-align: center;
-  font-size: x-large;
-  display: flex;
-  justify-content: space-between;
-}
-
-.svg-4 {
-  align-self: self-start;
-  height: 50px;
-  padding: 10px 6px 8px 0;
-}
-
-.head {
+div>a>P {
   margin: 0;
+  padding: 8px;
 }
 
-.sv1 {
-  padding: 0;
-  border-radius: 7px;
-  height: 20px;
-  font-size: large;
-  font-family: 'Roboto Condensed', sans-serif;
-  width: 140px;
-  text-align: center;
+div>a>img {
+  border-radius: 5px;
 }
 
-aside {
-  grid-area: aside;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-}
-
-.svg-1 {
-  margin: 5px 58px 5px 3px;
-}
-
-.svg-2 {
-  margin: 5px 58px 5px 3px;
-}
-
-.svg-3 {
-  margin: 5px 10px 5px 3px;
-}
-
-
-footer {
+.vessel-v2 {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
