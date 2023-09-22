@@ -1,6 +1,12 @@
 body {
   font-family: 'Qwitcher Grypen', cursive;
 /*   max-width: 1628px; */
+  background-color: linear-gradient(
+    #f9d923,
+    #0c87b7,
+    #ff6666,
+    #00a19d,
+  )
 }
 
 .container {
